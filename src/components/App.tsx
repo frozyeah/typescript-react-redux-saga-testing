@@ -13,11 +13,11 @@ const App = () => {
   }
   return (
     <div className="App">
-      <h1>
+      <h1 style={{color: "lightblue"}}>
         {counter}
       </h1>
-      <button onClick={handleAdd}>+</button>
-      <button onClick={handleSubtract}>-</button>
+      <button className="btn btn-primary" onClick={handleAdd}>+</button>
+      <button className="btn btn-primary" onClick={handleSubtract}>-</button>
     </div>
   );
 }

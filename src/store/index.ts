@@ -1,5 +1,5 @@
-import { createStore, applyMiddleware, compose, Store } from 'redux'
-import createSagaMiddleware from 'redux-saga'
+import { createStore, applyMiddleware, compose, Store } from 'redux';
+import createSagaMiddleware from 'redux-saga';
 import { helloSaga } from './sagas';
 import reducer from "./reducer";
 
